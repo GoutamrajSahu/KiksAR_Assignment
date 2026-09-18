@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "productId": "w-m-01",
+      "name": "Chronograph Stainless Steel Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "Elegant men's chronograph watch featuring a brushed stainless steel case, water resistance up to 50m, and a classic black dial.",
+      "thumbnailUrl": "wacth.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-m-02",
+      "name": "Aviation Leather Pilot Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "Vintage aviation timepiece with luminous numerals, genuine dark brown leather strap, and Japanese quartz movement.",
+      "thumbnailUrl": "wacth.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-f-01",
+      "name": "Rose Gold Minimalist Watch",
+      "category": "Watches",
+      "subcategory": "Female",
+      "description": "Slim rose gold-toned women's dress watch with a white sunray dial and polished mesh strap.",
+      "thumbnailUrl": "wacth.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-f-02",
+      "name": "Diamond Bezel Ceramic Watch",
+      "category": "Watches",
+      "subcategory": "Female",
+      "description": "High-gloss white ceramic wrist watch with crystalline bezel accent and sapphire crystal glass.",
+      "thumbnailUrl": "wacth.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kb-01",
+      "name": "Digital Sports Watch for Boys",
+      "category": "Watches",
+      "subcategory": "Kids-Boy",
+      "description": "Durable shock-resistant digital watch featuring multi-color LED backlight, stopwatch, and water resistance for active boys.",
+      "thumbnailUrl": "boy.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kg-01",
+      "name": "Pastel Pink Quartz Kids Watch",
+      "category": "Watches",
+      "subcategory": "Kids-Girl",
+      "description": "Playful lightweight watch with an easy-to-read analog dial, floral motif, and soft silicone strap.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "c-m-01",
+      "name": "Classic Fit Formal Oxford Shirt",
+      "category": "Clothes",
+      "subcategory": "Male",
+      "description": "Tailored 100% Egyptian cotton button-down shirt designed for breathable all-day business and formal wear.",
+      "thumbnailUrl": "man.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-m-02",
+      "name": "Urban Slim Denim Jacket",
+      "category": "Clothes",
+      "subcategory": "Male",
+      "description": "Rugged washed denim jacket with dual chest pockets and branded brass buttons.",
+      "thumbnailUrl": "Men_Cloths.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-m-03",
+      "name": "Crewneck Cotton Sweatshirt",
+      "category": "Clothes",
+      "subcategory": "Male",
+      "description": "Heavyweight fleece sweatshirt with ribbed cuffs and hem, crafted for casual weekend comfort.",
+      "thumbnailUrl": "Men_Cloths.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-f-01",
+      "name": "Embroidered Silk Saree",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Traditional banarasi silk saree hand-woven with intricate golden zari borders and floral motifs.",
+      "thumbnailUrl": "saree.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-f-02",
+      "name": "A-Line Floral Summer Dress",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Lightweight chiffon midi dress with flutter sleeves and an elasticated cinched waist.",
+      "thumbnailUrl": "woman_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-f-03",
+      "name": "Tailored Double-Breasted Blazer",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Structured modern blazer cut from premium Italian wool blend with peak lapels.",
+      "thumbnailUrl": "woman.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kb-01",
+      "name": "Graphic Print Dinosaur Tee",
+      "category": "Clothes",
+      "subcategory": "Kids-Boy",
+      "description": "Pure cotton jersey crewneck tee with vibrant dinosaur screen-print.",
+      "thumbnailUrl": "Boy_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kb-02",
+      "name": "Cargo Pocket Cotton Shorts",
+      "category": "Clothes",
+      "subcategory": "Kids-Boy",
+      "description": "Sturdy twill cotton utility shorts with flexible waistband and multiple utility pockets.",
+      "thumbnailUrl": "Boy_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kg-01",
+      "name": "Tulle Ballerina Party Frock",
+      "category": "Clothes",
+      "subcategory": "Kids-Girl",
+      "description": "Sparkling layered tulle dress with satin ribbon sash and soft cotton lining.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kg-02",
+      "name": "Denim Overalls with Heart Patches",
+      "category": "Clothes",
+      "subcategory": "Kids-Girl",
+      "description": "Cute adjustable strap denim dungarees with embroidered heart accents and stretch fit.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "j-m-01",
+      "name": "Titanium Curb Chain Necklace",
+      "category": "Jewellery",
+      "subcategory": "Male",
+      "description": "Solid medical-grade titanium Cuban link chain with a lobster clasp closure and matte satin finish.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-m-02",
+      "name": "Brushed Tungsten Carbide Ring",
+      "category": "Jewellery",
+      "subcategory": "Male",
+      "description": "Scratch-resistant comfort-fit band crafted from gunmetal tungsten with beveled edges.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-f-01",
+      "name": "Solitaire Diamond Pendant Necklace",
+      "category": "Jewellery",
+      "subcategory": "Female",
+      "description": "Exquisite 18K white gold pendant holding a prong-set round brilliant laboratory-certified diamond.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-f-02",
+      "name": "Emerald Drop Chandelier Earrings",
+      "category": "Jewellery",
+      "subcategory": "Female",
+      "description": "Stunning statement earrings featuring Colombian lab emeralds bordered by pave-set cubic zirconia.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-f-03",
+      "name": "Polished Gold Charm Bracelet",
+      "category": "Jewellery",
+      "subcategory": "Female",
+      "description": "Classic 14K yellow gold rolo chain bracelet with delicate dangling celestial charms.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kb-01",
+      "name": "Stainless Steel Compass Dog Tag",
+      "category": "Jewellery",
+      "subcategory": "Kids-Boy",
+      "description": "Hypoallergenic stainless steel pendant engraved with nautical compass on a 16-inch bead chain.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kg-01",
+      "name": "Enamel Butterfly Pendant Necklace",
+      "category": "Jewellery",
+      "subcategory": "Kids-Girl",
+      "description": "Sterling silver chain with a pastel lavender and pink enamel butterfly charm.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kg-02",
+      "name": "Crystal Star Stud Earrings",
+      "category": "Jewellery",
+      "subcategory": "Kids-Girl",
+      "description": "Dainty hypoallergenic silver star studs featuring iridescent Austrian crystals with safety screw backs.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    }
+  ]
+}
