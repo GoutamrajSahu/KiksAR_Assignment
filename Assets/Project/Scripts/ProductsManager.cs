@@ -19,6 +19,9 @@ public class ProductsManager : MonoBehaviour
     public Dictionary<string, Texture2D> textureCache = new(); //Catch all dowloaded images.
     [SerializeField] private string jsonFileName = "products.json";
 
+    [Header("Script references")]
+    [SerializeField] private ProductVirtualGrid productCatalogueGrid;
+
     [Header("Debug variables")]
     [SerializeField] public List<Texture2D> imagesDebug = new List<Texture2D>();
 
@@ -64,10 +67,11 @@ public class ProductsManager : MonoBehaviour
         productDatabase = new ProductDatabase(products);
 
         #region Debug Area
-        foreach (ProductData product in products)
+        DisplayProductsInCatalogue(new List <ProductData> (products));
+       /* foreach (ProductData product in products)
         {
             LoadImage(ResolveUrl(product.thumbnailUrl), (image) => { });
-        }
+        }*/
         #endregion
     }
 
@@ -103,7 +107,7 @@ public class ProductsManager : MonoBehaviour
             
             onComplete?.Invoke(texture);
 
-            imagesDebug.Add(texture); //Storing for debug purpose.
+            //imagesDebug.Add(texture); //Storing for debug purpose.
         }
         else
         {
@@ -125,6 +129,14 @@ public class ProductsManager : MonoBehaviour
         // Replace Windows backslashes with forward slashes for UnityWebRequest URI format
         return "file:///" + localPath.Replace("\\", "/");
 #endif
+    }
+    #endregion
+
+    #region ProductCatalogue
+    private void DisplayProductsInCatalogue(List<ProductData> products)
+    {
+        productCatalogueGrid.SetProducts(products);
+        //productCatalogueGrid.SetColumns(2);//This will be dynamic according to the screen size.
     }
     #endregion
 }

@@ -5,7 +5,7 @@
       "name": "Chronograph Stainless Steel Watch",
       "category": "Watches",
       "subcategory": "Male",
-      "description": "Elegant men's chronograph watch featuring a brushed stainless steel case, water resistance up to 50m, and a classic black dial.",
+      "description": "Brushed stainless steel chronograph watch with water resistance up to 50m and black sunray dial.",
       "thumbnailUrl": "watch.png",
       "modelCategory": "Watches"
     },
@@ -14,7 +14,25 @@
       "name": "Aviation Leather Pilot Watch",
       "category": "Watches",
       "subcategory": "Male",
-      "description": "Vintage aviation timepiece with luminous numerals, genuine dark brown leather strap, and Japanese quartz movement.",
+      "description": "Vintage aviation timepiece with luminous numerals, brown calfskin strap, and quartz movement.",
+      "thumbnailUrl": "watch.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-m-03",
+      "name": "Matte Black Tactical Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "Rugged outdoor military-inspired tactical wristwatch with dual analog-digital time display.",
+      "thumbnailUrl": "watch.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-m-04",
+      "name": "Silver Mesh Luxury Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "Ultra-thin executive dress watch with Milanese mesh strap and sapphire crystal glass.",
       "thumbnailUrl": "watch.png",
       "modelCategory": "Watches"
     },
@@ -23,7 +41,7 @@
       "name": "Rose Gold Minimalist Watch",
       "category": "Watches",
       "subcategory": "Female",
-      "description": "Slim rose gold-toned women's dress watch with a white sunray dial and polished mesh strap.",
+      "description": "Slim rose gold-toned dress watch with an elegant white dial and polished mesh strap.",
       "thumbnailUrl": "watch.png",
       "modelCategory": "Watches"
     },
@@ -32,7 +50,25 @@
       "name": "Diamond Bezel Ceramic Watch",
       "category": "Watches",
       "subcategory": "Female",
-      "description": "High-gloss white ceramic wrist watch with crystalline bezel accent and sapphire crystal glass.",
+      "description": "High-gloss white ceramic wrist watch accented with crystalline stones around the bezel.",
+      "thumbnailUrl": "watch.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-f-03",
+      "name": "Mother of Pearl Petite Watch",
+      "category": "Watches",
+      "subcategory": "Female",
+      "description": "Delicate quartz watch featuring an iridescent mother-of-pearl dial and slender leather band.",
+      "thumbnailUrl": "watch.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-f-04",
+      "name": "Champagne Gold Bangle Watch",
+      "category": "Watches",
+      "subcategory": "Female",
+      "description": "Jewelry-inspired bangle watch with champagne-tinted dial and fold-over jewelry clasp.",
       "thumbnailUrl": "watch.png",
       "modelCategory": "Watches"
     },
@@ -41,7 +77,25 @@
       "name": "Digital Sports Watch for Boys",
       "category": "Watches",
       "subcategory": "Kids-Boy",
-      "description": "Durable shock-resistant digital watch featuring multi-color LED backlight, stopwatch, and water resistance for active boys.",
+      "description": "Shock-resistant multi-function digital watch with LED backlight, alarm, and water resistance.",
+      "thumbnailUrl": "boy.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kb-02",
+      "name": "Hero Blue Silicone Watch",
+      "category": "Watches",
+      "subcategory": "Kids-Boy",
+      "description": "Durable flexible silicone strap watch with bold numbers designed for learning time.",
+      "thumbnailUrl": "boy.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kb-03",
+      "name": "Camouflage Action Watch",
+      "category": "Watches",
+      "subcategory": "Kids-Boy",
+      "description": "Cool army green camouflage print watch with countdown timer and splash resistance.",
       "thumbnailUrl": "boy.png",
       "modelCategory": "Watches"
     },
@@ -50,7 +104,25 @@
       "name": "Pastel Pink Quartz Kids Watch",
       "category": "Watches",
       "subcategory": "Kids-Girl",
-      "description": "Playful lightweight watch with an easy-to-read analog dial, floral motif, and soft silicone strap.",
+      "description": "Lightweight analog watch with floral motif dial and hypoallergenic soft silicone strap.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kg-02",
+      "name": "Glitter Lavender Sparkle Watch",
+      "category": "Watches",
+      "subcategory": "Kids-Girl",
+      "description": "Shimmering lavender watch with glitter infused strap and clear time markings.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "w-kg-03",
+      "name": "Starry Sky Magic Watch",
+      "category": "Watches",
+      "subcategory": "Kids-Girl",
+      "description": "Enchanting purple dial featuring star constellations with a comfortable buckle strap.",
       "thumbnailUrl": "Girl.png",
       "modelCategory": "Watches"
     },
@@ -59,7 +131,7 @@
       "name": "Classic Fit Formal Oxford Shirt",
       "category": "Clothes",
       "subcategory": "Male",
-      "description": "Tailored 100% Egyptian cotton button-down shirt designed for breathable all-day business and formal wear.",
+      "description": "Tailored 100% Egyptian cotton button-down shirt designed for breathable business wear.",
       "thumbnailUrl": "man.png",
       "modelCategory": "Clothes"
     },
@@ -68,7 +140,7 @@
       "name": "Urban Slim Denim Jacket",
       "category": "Clothes",
       "subcategory": "Male",
-      "description": "Rugged washed denim jacket with dual chest pockets and branded brass buttons.",
+      "description": "Rugged washed blue denim jacket with dual chest pockets and branded brass buttons.",
       "thumbnailUrl": "Men_Cloths.png",
       "modelCategory": "Clothes"
     },
@@ -77,16 +149,34 @@
       "name": "Crewneck Cotton Sweatshirt",
       "category": "Clothes",
       "subcategory": "Male",
-      "description": "Heavyweight fleece sweatshirt with ribbed cuffs and hem, crafted for casual weekend comfort.",
+      "description": "Heavyweight fleece sweatshirt with ribbed cuffs and hem, crafted for casual comfort.",
+      "thumbnailUrl": "Men_Cloths.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-m-04",
+      "name": "Tailored Charcoal Wool Suit",
+      "category": "Clothes",
+      "subcategory": "Male",
+      "description": "Two-piece modern fit wool blend suit perfect for corporate and formal occasions.",
+      "thumbnailUrl": "man.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-m-05",
+      "name": "Casual Pique Polo Shirt",
+      "category": "Clothes",
+      "subcategory": "Male",
+      "description": "Breathable cotton pique polo with two-button placket and embroidered chest emblem.",
       "thumbnailUrl": "Men_Cloths.png",
       "modelCategory": "Clothes"
     },
     {
       "productId": "c-f-01",
-      "name": "Embroidered Silk Saree",
+      "name": "Embroidered Banarasi Silk Saree",
       "category": "Clothes",
       "subcategory": "Female",
-      "description": "Traditional banarasi silk saree hand-woven with intricate golden zari borders and floral motifs.",
+      "description": "Traditional banarasi silk saree hand-woven with intricate golden zari borders.",
       "thumbnailUrl": "saree.png",
       "modelCategory": "Clothes"
     },
@@ -109,11 +199,29 @@
       "modelCategory": "Clothes"
     },
     {
+      "productId": "c-f-04",
+      "name": "Crimson Kanjivaram Bridal Saree",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Rich crimson authentic silk saree with temple zari design and rich contrast pallu.",
+      "thumbnailUrl": "saree.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-f-05",
+      "name": "Casual High-Waist Linen Trousers",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Relaxed fit breathable linen trousers with tie waist belt and side slash pockets.",
+      "thumbnailUrl": "woman_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
       "productId": "c-kb-01",
       "name": "Graphic Print Dinosaur Tee",
       "category": "Clothes",
       "subcategory": "Kids-Boy",
-      "description": "Pure cotton jersey crewneck tee with vibrant dinosaur screen-print.",
+      "description": "Pure cotton jersey crewneck tee with vibrant glow-in-the-dark dinosaur print.",
       "thumbnailUrl": "Boy_clothes.png",
       "modelCategory": "Clothes"
     },
@@ -122,7 +230,25 @@
       "name": "Cargo Pocket Cotton Shorts",
       "category": "Clothes",
       "subcategory": "Kids-Boy",
-      "description": "Sturdy twill cotton utility shorts with flexible waistband and multiple utility pockets.",
+      "description": "Sturdy twill cotton utility shorts with flexible elastic waistband and cargo pockets.",
+      "thumbnailUrl": "Boy_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kb-03",
+      "name": "Zip-Up Hooded Fleece Jacket",
+      "category": "Clothes",
+      "subcategory": "Kids-Boy",
+      "description": "Warm brushed fleece hoodie with front kangaroo pockets and durable nylon zipper.",
+      "thumbnailUrl": "Boy_clothes.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kb-04",
+      "name": "Striped Polo Collar Shirt",
+      "category": "Clothes",
+      "subcategory": "Kids-Boy",
+      "description": "Smart casual nautical striped short-sleeve polo shirt crafted from organic cotton.",
       "thumbnailUrl": "Boy_clothes.png",
       "modelCategory": "Clothes"
     },
@@ -131,7 +257,7 @@
       "name": "Tulle Ballerina Party Frock",
       "category": "Clothes",
       "subcategory": "Kids-Girl",
-      "description": "Sparkling layered tulle dress with satin ribbon sash and soft cotton lining.",
+      "description": "Sparkling layered tulle dress with satin ribbon sash and soft breathable lining.",
       "thumbnailUrl": "Girl.png",
       "modelCategory": "Clothes"
     },
@@ -140,7 +266,25 @@
       "name": "Denim Overalls with Heart Patches",
       "category": "Clothes",
       "subcategory": "Kids-Girl",
-      "description": "Cute adjustable strap denim dungarees with embroidered heart accents and stretch fit.",
+      "description": "Cute adjustable strap denim dungarees with embroidered pastel heart accents.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kg-03",
+      "name": "Ruffle Sleeve Floral Romper",
+      "category": "Clothes",
+      "subcategory": "Kids-Girl",
+      "description": "Summer cotton romper featuring blooming wildflower prints and ruffled flutter sleeves.",
+      "thumbnailUrl": "Girl.png",
+      "modelCategory": "Clothes"
+    },
+    {
+      "productId": "c-kg-04",
+      "name": "Polka Dot Princess Sundress",
+      "category": "Clothes",
+      "subcategory": "Kids-Girl",
+      "description": "Classic red and white polka dot cotton dress with bow tie back and tiered hem.",
       "thumbnailUrl": "Girl.png",
       "modelCategory": "Clothes"
     },
@@ -149,7 +293,7 @@
       "name": "Titanium Curb Chain Necklace",
       "category": "Jewellery",
       "subcategory": "Male",
-      "description": "Solid medical-grade titanium Cuban link chain with a lobster clasp closure and matte satin finish.",
+      "description": "Solid medical-grade titanium Cuban link chain with a lobster clasp and satin finish.",
       "thumbnailUrl": "jewelry.png",
       "modelCategory": "Jewellery"
     },
@@ -163,11 +307,29 @@
       "modelCategory": "Jewellery"
     },
     {
+      "productId": "j-m-03",
+      "name": "Braided Leather & Steel Bracelet",
+      "category": "Jewellery",
+      "subcategory": "Male",
+      "description": "Multi-strand genuine black leather bracelet secured by a magnetic steel closure.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-m-04",
+      "name": "Minimalist Onyx Signet Ring",
+      "category": "Jewellery",
+      "subcategory": "Male",
+      "description": "Sterling silver square signet ring inlaid with genuine natural black onyx stone.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
       "productId": "j-f-01",
       "name": "Solitaire Diamond Pendant Necklace",
       "category": "Jewellery",
       "subcategory": "Female",
-      "description": "Exquisite 18K white gold pendant holding a prong-set round brilliant laboratory-certified diamond.",
+      "description": "18K white gold pendant holding a prong-set round brilliant laboratory diamond.",
       "thumbnailUrl": "jewelry.png",
       "modelCategory": "Jewellery"
     },
@@ -176,7 +338,7 @@
       "name": "Emerald Drop Chandelier Earrings",
       "category": "Jewellery",
       "subcategory": "Female",
-      "description": "Stunning statement earrings featuring Colombian lab emeralds bordered by pave-set cubic zirconia.",
+      "description": "Stunning statement earrings featuring Colombian lab emeralds bordered by cubic zirconia.",
       "thumbnailUrl": "jewelry.png",
       "modelCategory": "Jewellery"
     },
@@ -190,11 +352,47 @@
       "modelCategory": "Jewellery"
     },
     {
+      "productId": "j-f-04",
+      "name": "Pearl & Diamond Halo Ring",
+      "category": "Jewellery",
+      "subcategory": "Female",
+      "description": "Freshwater cultured button pearl surrounded by a micro-pave sparkling diamond halo.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-f-05",
+      "name": "Rose Gold Infinity Tennis Bracelet",
+      "category": "Jewellery",
+      "subcategory": "Female",
+      "description": "Flexible tennis bracelet with interlocking infinity symbols set in 18K rose gold.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
       "productId": "j-kb-01",
       "name": "Stainless Steel Compass Dog Tag",
       "category": "Jewellery",
       "subcategory": "Kids-Boy",
-      "description": "Hypoallergenic stainless steel pendant engraved with nautical compass on a 16-inch bead chain.",
+      "description": "Hypoallergenic steel pendant engraved with nautical compass on a 16-inch bead chain.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kb-02",
+      "name": "Soccer Ball Pendant Cord Necklace",
+      "category": "Jewellery",
+      "subcategory": "Kids-Boy",
+      "description": "Durable enamel soccer charm on an adjustable waterproof wax cord necklace.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kb-03",
+      "name": "Silicone ID Safety Band",
+      "category": "Jewellery",
+      "subcategory": "Kids-Boy",
+      "description": "Soft flexible silicone wristband with customizable laser-engraved steel ID plate.",
       "thumbnailUrl": "jewelry.png",
       "modelCategory": "Jewellery"
     },
@@ -212,9 +410,45 @@
       "name": "Crystal Star Stud Earrings",
       "category": "Jewellery",
       "subcategory": "Kids-Girl",
-      "description": "Dainty hypoallergenic silver star studs featuring iridescent Austrian crystals with safety screw backs.",
+      "description": "Dainty silver star studs featuring iridescent crystals with safety screw backs.",
       "thumbnailUrl": "jewelry.png",
       "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kg-03",
+      "name": "Rainbow Beaded Friendship Bracelet",
+      "category": "Jewellery",
+      "subcategory": "Kids-Girl",
+      "description": "Stretch bead bracelet strung with pastel rainbow ceramic beads and a gold heart charm.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "j-kg-04",
+      "name": "Flower Blossom Sterling Locket",
+      "category": "Jewellery",
+      "subcategory": "Kids-Girl",
+      "description": "Engraved miniature oval locket that opens to hold two tiny keepsake photos.",
+      "thumbnailUrl": "jewelry.png",
+      "modelCategory": "Jewellery"
+    },
+    {
+      "productId": "w-m-05",
+      "name": "Automatic Skeleton Exhibition Watch",
+      "category": "Watches",
+      "subcategory": "Male",
+      "description": "Self-winding mechanical watch displaying internal gears through an open skeleton dial.",
+      "thumbnailUrl": "watch.png",
+      "modelCategory": "Watches"
+    },
+    {
+      "productId": "c-f-06",
+      "name": "Pleated Chiffon Evening Gown",
+      "category": "Clothes",
+      "subcategory": "Female",
+      "description": "Floor-length flowing pleated gown with high neck collar and metallic waist buckle.",
+      "thumbnailUrl": "woman_clothes.png",
+      "modelCategory": "Clothes"
     }
   ]
 }
