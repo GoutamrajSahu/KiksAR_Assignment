@@ -66,7 +66,7 @@ public class ProductsManager : MonoBehaviour
         #region Debug Area
         foreach (ProductData product in products)
         {
-            LoadImage(ResolveUrl(product.thumbnailUrl), (image) => { imagesDebug.Add(image); });
+            LoadImage(ResolveUrl(product.thumbnailUrl), (image) => { });
         }
         #endregion
     }
@@ -100,8 +100,10 @@ public class ProductsManager : MonoBehaviour
 
             // Store in cache for future cards
             textureCache[url] = texture;
-
+            
             onComplete?.Invoke(texture);
+
+            imagesDebug.Add(texture); //Storing for debug purpose.
         }
         else
         {
