@@ -23,6 +23,9 @@ public class ProductsManager : MonoBehaviour
     [SerializeField] private ProductVirtualGrid productCatalogueGrid;
     [SerializeField] private FilterBoxController filterBoxController;
 
+    [Header("Others")]
+    [SerializeField] Transform noProductsFoundTextObj;
+
     [Header("Debug variables")]
     [SerializeField] public List<Texture2D> imagesDebug = new List<Texture2D>();
 
@@ -135,9 +138,12 @@ public class ProductsManager : MonoBehaviour
     #endregion
 
     #region ProductCatalogue
-    private void DisplayProductsInCatalogue(List<ProductData> products)
+    public void DisplayProductsInCatalogue(List<ProductData> products)
     {
+        noProductsFoundTextObj.gameObject.SetActive(!(products.Count > 0));
+
         productCatalogueGrid.SetProducts(products);
+        //Note: if there is no products(products.count == 0) show Empty text.
     }
     #endregion
 }

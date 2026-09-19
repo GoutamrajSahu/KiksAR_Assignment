@@ -8,7 +8,7 @@ public class ProductDatabase
 {
     public ProductData[] products; //Contains all products data.
     public List<string> availableCategories  = new(); //Storing all the possible categories available in the give product data.
-    public List<string> subcategory = new() {"Male", "Female", "KidsBoy", "KidsGirl"}; //Keeping subcategory fixed as its same for all categories.
+    public List<string> subcategory = new() {"Male", "Female", "Kids-Boy", "Kids-Girl"}; //Keeping subcategory fixed as its same for all categories.
 
     public ProductDatabase(ProductData[] products)
     {
