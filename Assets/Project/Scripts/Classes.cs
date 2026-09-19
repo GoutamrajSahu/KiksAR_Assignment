@@ -7,7 +7,7 @@ using UnityEngine;
 public class ProductDatabase
 {
     public ProductData[] products;
-    public List<string> availableCategories { get; private set; } = new(); //Storing all the possible categories available in the give product data.
+    public List<string> availableCategories  = new(); //Storing all the possible categories available in the give product data.
     public List<string> subcategory = new() {"Male", "Female", "KidsBoy", "KidsGirl"}; //Keeping subcategory fixed as its same for all categories.
     public ProductDatabase(ProductData[] products)
     {
