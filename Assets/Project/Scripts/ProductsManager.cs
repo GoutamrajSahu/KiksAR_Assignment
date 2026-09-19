@@ -21,6 +21,7 @@ public class ProductsManager : MonoBehaviour
 
     [Header("Script references")]
     [SerializeField] private ProductVirtualGrid productCatalogueGrid;
+    [SerializeField] private FilterBoxController filterBoxController;
 
     [Header("Debug variables")]
     [SerializeField] public List<Texture2D> imagesDebug = new List<Texture2D>();
@@ -68,6 +69,7 @@ public class ProductsManager : MonoBehaviour
 
         #region Debug Area
         DisplayProductsInCatalogue(new List <ProductData> (products));
+        filterBoxController.UpdateFilterBoxWithFilterData(productDatabase.availableCategories);
        /* foreach (ProductData product in products)
         {
             LoadImage(ResolveUrl(product.thumbnailUrl), (image) => { });
@@ -136,7 +138,6 @@ public class ProductsManager : MonoBehaviour
     private void DisplayProductsInCatalogue(List<ProductData> products)
     {
         productCatalogueGrid.SetProducts(products);
-        //productCatalogueGrid.SetColumns(2);//This will be dynamic according to the screen size.
     }
     #endregion
 }
