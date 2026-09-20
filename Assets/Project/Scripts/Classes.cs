@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Unity.Android.Gradle;
-using UnityEngine;
 
 [Serializable]
 public class ProductDatabase
