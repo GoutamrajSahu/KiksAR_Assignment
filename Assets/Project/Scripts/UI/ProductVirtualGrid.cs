@@ -172,7 +172,7 @@ public class ProductVirtualGrid : MonoBehaviour
 
         ProductData product = products[index];
 
-        card.Bind(product, productData => { });
+        card.Bind(product, productData => { ProductsManager.Instance.OnProductCardClick(productData); });
 
         activeCards.Add(index, card);
     }

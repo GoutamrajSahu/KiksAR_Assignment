@@ -22,12 +22,13 @@ public class ProductsManager : MonoBehaviour
     [Header("Script references")]
     [SerializeField] private ProductVirtualGrid productCatalogueGrid;
     [SerializeField] private FilterBoxController filterBoxController;
+    [SerializeField] private ProductDetails productDetailsPanel;
 
     [Header("Others")]
     [SerializeField] Transform noProductsFoundTextObj;
 
-    [Header("Debug variables")]
-    [SerializeField] public List<Texture2D> imagesDebug = new List<Texture2D>();
+    //[Header("Debug variables")]
+    //[SerializeField] public List<Texture2D> imagesDebug = new List<Texture2D>();
 
     private void Start()
     {
@@ -134,6 +135,13 @@ public class ProductsManager : MonoBehaviour
         // Replace Windows backslashes with forward slashes for UnityWebRequest URI format
         return "file:///" + localPath.Replace("\\", "/");
 #endif
+    }
+    #endregion
+
+    #region OnProductCardClick
+    public void OnProductCardClick(ProductData productData)
+    {
+        productDetailsPanel.BindAndShow(productData);
     }
     #endregion
 

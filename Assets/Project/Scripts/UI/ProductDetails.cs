@@ -3,9 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ProductCard : MonoBehaviour
+public class ProductDetails : MonoBehaviour
 {
     [Header("UI References")]
+    [SerializeField] private Transform panelTransform;
     [SerializeField] private Image thumbnailPictureImage;
 
     [SerializeField] private TMP_Text productName;
@@ -14,7 +15,7 @@ public class ProductCard : MonoBehaviour
     [SerializeField] private TMP_Text description;
 
     [Header("Interactive")]
-    [SerializeField] private Button cardButton;
+    [SerializeField] private Button button3Dview;
 
     // The data currently bound to this card
     public ProductData CurrentData { get; private set; }
@@ -23,29 +24,29 @@ public class ProductCard : MonoBehaviour
 
     private void Awake()
     {
-        if (cardButton != null)
+        if (button3Dview != null)
         {
-            cardButton.onClick.AddListener(HandleCardClick);
+            button3Dview.onClick.AddListener(HandleCardClick);
         }
     }
 
     private void OnDestroy()
     {
-        if (cardButton != null)
+        if (button3Dview != null)
         {
-            cardButton.onClick.RemoveListener(HandleCardClick);
+            button3Dview.onClick.RemoveListener(HandleCardClick);
         }
     }
 
-    // Binds product data to the UI elements and triggers lazy thumbnail loading.
-    public void Bind(ProductData data, Action<ProductData> onClickedCallback = null)
+    // Binds product data and showes the panel.
+    public void BindAndShow(ProductData data, Action<ProductData> onClickedCallback = null)
     {
         CurrentData = data;
         onCardClicked = onClickedCallback;
 
         if (data == null)
         {
-            Clear();
+            ClearAndHide();
             return;
         }
 
@@ -71,10 +72,11 @@ public class ProductCard : MonoBehaviour
                 ApplyTexture(texture);
             });
         }
+        panelTransform.gameObject.SetActive(true);
     }
 
-    // Clears the card UI to an empty state.
-    public void Clear()
+    // Clears the card UI to an empty state and hides the card.
+    public void ClearAndHide()
     {
         CurrentData = null;
         onCardClicked = null;
@@ -85,6 +87,8 @@ public class ProductCard : MonoBehaviour
         if (description != null) description.text = string.Empty;
 
         ResetThumbnailDisplay();
+
+        panelTransform.gameObject.SetActive(false);
     }
 
     private void ResetThumbnailDisplay()
