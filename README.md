@@ -7,12 +7,6 @@
 
 ---
 
-## 📱 Android APK Download
-* **Android APK Release**: [Download APK from Releases / Drive Link](https://drive.google.com/drive/folders/YOUR_DRIVE_FOLDER_OR_RELEASE_LINK)  
-*(Built target: Android API Level 29+ ARM64, verified offline operation without network connectivity).*
-
----
-
 ## 📖 Project Overview
 This project is an e-commerce-style 3D product catalogue and interactive preview application built in Unity. It demonstrates simulation-grade patterns commonly employed in AR/VR applications:
 1. **Dynamic Runtime Data Loading**: Loads product data asynchronously from a local JSON file in `StreamingAssets` without hardcoding or network dependency.
@@ -38,7 +32,6 @@ Assets/Project/
 │   ├── 3D/
 │   │   └── Model3DViewHandler.cs # 3D stage manager & model lifecycle controller
 │   └── UI/
-│       ├── GameHUD.cs             # Main UI coordinator
 │       ├── ProductVirtualGrid.cs  # Virtualizing / recycling scroll grid view
 │       ├── ProductCard.cs         # Card view component with lazy-loading bindings
 │       ├── ProductDetails.cs      # Product detail panel UI controller

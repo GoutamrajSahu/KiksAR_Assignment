@@ -18,14 +18,14 @@ Engine: Unity 6 (6000.3.16f1) URP
 - Clothing (Hoodie) 3D Model:
   * File: hoodie-0001-campusComeback_model.fbx
   * Prefab: Assets/Project/Prefabs/Models/Cloth.prefab
-  * Source: Sketchfab
-  * License: Creative Commons Attribution (CC BY 4.0) / Free Download
+  * Source: Unity Asset Store
+  * License: Unity Standard Asset License (Free)
 
 - Jewellery (Necklace) 3D Model:
   * File: Necklace.fbx
   * Prefab: Assets/Project/Prefabs/Models/Necklece.prefab
-  * Source: Sketchfab / Free3D
-  * License: Creative Commons Attribution (CC BY 4.0) / Royalty-Free
+  * Source: Unity Asset Store
+  * License: Unity Standard Asset License (Free)
 
 
 2. ENVIRONMENT & SKYBOX
