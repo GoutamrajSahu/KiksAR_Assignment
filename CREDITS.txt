@@ -1,0 +1,57 @@
+================================================================================
+THIRD-PARTY ASSET CREDITS & LICENSES
+================================================================================
+Project: E-Commerce Style 3D Product Filter and Preview System
+Developer: Goutamraj Sahu
+Role: Unity3D Developer (Round 2 Assignment) - KiksAR
+Engine: Unity 6 (6000.3.16f1) URP
+================================================================================
+
+1. 3D MODELS
+-------------
+- Watch 3D Model:
+  * File: 11801_Watch_v1_l2.obj
+  * Prefab: Assets/Project/Prefabs/Models/Watch.prefab
+  * Source: Free3D / Sketchfab
+  * License: Creative Commons Attribution (CC BY 4.0) / Royalty-Free
+
+- Clothing (Hoodie) 3D Model:
+  * File: hoodie-0001-campusComeback_model.fbx
+  * Prefab: Assets/Project/Prefabs/Models/Cloth.prefab
+  * Source: Sketchfab
+  * License: Creative Commons Attribution (CC BY 4.0) / Free Download
+
+- Jewellery (Necklace) 3D Model:
+  * File: Necklace.fbx
+  * Prefab: Assets/Project/Prefabs/Models/Necklece.prefab
+  * Source: Sketchfab / Free3D
+  * License: Creative Commons Attribution (CC BY 4.0) / Royalty-Free
+
+
+2. ENVIRONMENT & SKYBOX
+------------------------
+- Classic Cubemap Skybox:
+  * Location: Assets/Project/Skybox/Cubemaps/Classic
+  * Source: Unity Asset Store (Free Skybox Series / Custom Studio Gradient)
+  * License: Unity Standard Asset License
+
+
+3. PLUGINS & FRAMEWORKS
+------------------------
+- DOTween (HOTween v2):
+  * Author: Demigiant (Daniele Giardini)
+  * License: Demigiant Standard Free License / MIT License
+  * Website: http://dotween.demigiant.com
+
+- TextMesh Pro:
+  * Author: Unity Technologies
+  * License: Unity Companion License
+
+
+4. 2D ASSETS & THUMBNAILS
+--------------------------
+- Runtime Downloadable Icons (Loaded at runtime via UnityWebRequest):
+  * Thumbnails: Boy_clothes.png, boy.png, Girl.png, jewelry.png, man.png,
+    Men_Cloths.png, saree.png, watch.png / wacth.png, woman_clothes.png, woman.png.
+  * Location: Assets/StreamingAssets/Thumbnails/
+  * Purpose: Provided assignment sample assets loaded strictly at runtime.
