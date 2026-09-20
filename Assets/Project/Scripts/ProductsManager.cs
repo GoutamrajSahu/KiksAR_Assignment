@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -23,6 +22,9 @@ public class ProductsManager : MonoBehaviour
     [SerializeField] private ProductVirtualGrid productCatalogueGrid;
     [SerializeField] private FilterBoxController filterBoxController;
     [SerializeField] private ProductDetails productDetailsPanel;
+    [SerializeField] public Model3DViewHandler model3DViewHandler;
+
+    //[Header("Model 3D view")]
 
     [Header("Others")]
     [SerializeField] Transform noProductsFoundTextObj;
@@ -141,7 +143,7 @@ public class ProductsManager : MonoBehaviour
     #region OnProductCardClick
     public void OnProductCardClick(ProductData productData)
     {
-        productDetailsPanel.BindAndShow(productData);
+        productDetailsPanel.BindAndShow(productData, (ele) => { model3DViewHandler.Show3DModel(ele); });
     }
     #endregion
 

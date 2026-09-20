@@ -20,7 +20,7 @@ public class ProductDetails : MonoBehaviour
     // The data currently bound to this card
     public ProductData CurrentData { get; private set; }
 
-    private Action<ProductData> onCardClicked;
+    private Action<ProductData> on3DViewClicked;
 
     private void Awake()
     {
@@ -39,10 +39,10 @@ public class ProductDetails : MonoBehaviour
     }
 
     // Binds product data and showes the panel.
-    public void BindAndShow(ProductData data, Action<ProductData> onClickedCallback = null)
+    public void BindAndShow(ProductData data, Action<ProductData> on3DViewClick = null)
     {
         CurrentData = data;
-        onCardClicked = onClickedCallback;
+        on3DViewClicked = on3DViewClick;
 
         if (data == null)
         {
@@ -79,13 +79,13 @@ public class ProductDetails : MonoBehaviour
     public void ClearAndHide()
     {
         CurrentData = null;
-        onCardClicked = null;
+        on3DViewClicked = null;
 
         if (productName != null) productName.text = string.Empty;
         if (categoryLabel != null) categoryLabel.text = string.Empty;
         if (subcategoryLabel != null) subcategoryLabel.text = string.Empty;
         if (description != null) description.text = string.Empty;
-
+         
         ResetThumbnailDisplay();
 
         panelTransform.gameObject.SetActive(false);
@@ -118,7 +118,7 @@ public class ProductDetails : MonoBehaviour
     {
         if (CurrentData != null)
         {
-            onCardClicked?.Invoke(CurrentData);
+            on3DViewClicked?.Invoke(CurrentData);
         }
     }
 }
